@@ -1,10 +1,11 @@
-# Zignoruj pliki meta Unity
-*.meta linguist-vendored
-
-# Zignoruj shadery (ShaderLab)
+# Oznacz wszystko co nie jest kodem jako 'vendored' (czyli zewnętrzne/nieistotne)
 *.shader linguist-vendored
 *.cginc linguist-vendored
 *.compute linguist-vendored
+*.mat linguist-vendored
+*.meta linguist-vendored
+*.unity linguist-vendored
+*.asset linguist-vendored
 
-# Zignoruj zewnętrzne biblioteki i paczki, jeśli je masz
+# Jeśli masz gotowe paczki z Asset Store, zignoruj cały folder
 Assets/Plugins/** linguist-vendored
