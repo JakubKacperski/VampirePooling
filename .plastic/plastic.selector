@@ -1,0 +1,4 @@
+repository "VampirePooling@jakubkacperski@cloud"
+  path "/"
+    smartbranch "/main/working"         
+     
