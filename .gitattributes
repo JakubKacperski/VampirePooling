@@ -1,2 +1,10 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Zignoruj pliki meta Unity
+*.meta linguist-vendored
+
+# Zignoruj shadery (ShaderLab)
+*.shader linguist-vendored
+*.cginc linguist-vendored
+*.compute linguist-vendored
+
+# Zignoruj zewnętrzne biblioteki i paczki, jeśli je masz
+Assets/Plugins/** linguist-vendored
